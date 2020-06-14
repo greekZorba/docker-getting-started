@@ -32,13 +32,3 @@ CMD cat ./HelloDocker.txt
 # ex) docker run -v ${PWD}/data:/data/db mongo
 
 # docker exec -it <컨테이너id> mongo : 바로 몽고를 실행
-
-# 6379(호스트 포트):6379(도커 컨테이너 포트)
-# docker run -p 6379:6379 redis
-
-# docker container 중지
-# docker stop {컨테이너 id}
-
-# docker container 삭제 
-# docker rm {컨테이너 id}
-
